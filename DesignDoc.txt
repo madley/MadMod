@@ -1,5 +1,58 @@
 MadMod Minecraft Design Doc
 
-Stuff I need to do...
+High Level Goals: 
+- Motivate gamers to settle on a MadMod world because it has persistent character and world development.
+- Encourage the building of individual characters and micro-societies/civilizations in the world.
+- Enrich the Minecraft world by:
+  - Expanding on the world's characteristics through additional blocks and custom world generation.
+  - Expanding upon the existing tools and creating new tools and skills the player can use.
+  - Developing a system whereby a player can establish personal property.
+  - Creating addiitonal functionality that encourages player interaction.
 
-Do whatevs
+ 
+
+
+Ideas 
+
+- World Persistance
+Problem: Currently, the game does not indicate to the user what day it is, what month, etc. 
+Solution: Implement a system that includes a calendar/time system. Could expand to months, seasons etc.
+
+- World Generation
+Problem: All mobs are static.
+Solution: Randomize a monsters stats, appearance and loot.
+
+Problem: All biomes have no consequence on ore deposit, structure generation, or mob variety.
+Solution(s): Ores will spawn in lower frequency and quantity and instead occur in low density deposits globally, and high density deposits randomly potentially by biome. Certain structures can only occur in specific biomes. Mobs may be pre-disposed to spawn in certain areas. Neutral mobs like wolves and ocelots already have this, consider doing this for mobs. Dungeons could spawn above ground as "ruins" for skeletons/zombies, or small nooks/grottos in stone as caves for spiders.
+
+Problem: The Nether has very little purpose.
+Solution: Add native minerals to the Nether, or new minerals (or both) that would incentivize going to the Nether, or inhabiting the Nether.
+
+- Player Persistance
+Problem: A generic xp system is the only way a player can identify their "strength" or "skill".
+Solution(s): Some solutions are:
+  - Add in an "age" property that would be based on when the user first joined the world. The age would increase dependant upon the world time system (see above). 
+  - Redesign player xp. Make all activities in Minecraft generate experience. 
+  - Consider additional mechanics that would allow players to be more unique ( i.e. Add a health accumulation system. Like Zelda acquiring hearts ).
+
+Misc Game Features
+
+Problem: No inherent way to trade with other players. 
+Solution: Consider a trading mechanism. Both an active system where you could trade directly with a player and/or a passive system where you could interface with a vendor npc or a "trade" block.
+
+Problem: The enchanting system SUCKS. It is random and encourages people to sit at a dungeon and farm xp which is not fun. It also gives no incentive to interact with other players/npcs.
+Solution: Revamp the enchanting system to be based upon recipes. Recipes could drop from mobs, be found in dungeon chests, or perhaps sold from Villagers. A recipe could then be traded or learned. When a recipe has been learned it will always stay on that character which helps define that character uniquely. Some enchants would be harder to obtain than others creating value. An enchant could either be applied directly to an item, or be traded through a trade system so players could effectively trade money/items for an enchant "spell". 
+
+Problem: Limited incentive for exploration.
+Solution: Certain areas may be the only place to obtain a certain item, or certain areas and conditions need to be met to craft or enchant items. ( eg. Certain mobs may only spawn at midnight in the swamp or you have to enchant something at a moonwell. )
+
+
+
+Other Ideas:
+- Additional biomes.
+- Building roads may allow for faster foot travel, or would not deplete stamina so people would be more inclided to create them.
+- Bookshelves act as chests for only books. 
+- Fix lava mechanics so it is easier to remove.
+
+Questions  
+- How can we determine personal property?
