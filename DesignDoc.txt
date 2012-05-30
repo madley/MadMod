@@ -8,7 +8,6 @@ High Level Goals:
   - Expanding upon the existing tools and creating new tools and skills the player can use.
   - Developing a system whereby a player can establish personal property.
   - Creating addiitonal functionality that encourages player interaction.
-
  
 
 
@@ -36,6 +35,9 @@ Solution(s): Some solutions are:
   - Consider additional mechanics that would allow players to be more unique ( i.e. Add a health accumulation system. Like Zelda acquiring hearts ).
 
 Misc Game Features
+
+Problem: Communicating is difficult. Only a single chat channel.
+Solution: Channel system for chat.
 
 Problem: No inherent way to trade with other players. 
 Solution: Consider a trading mechanism. Both an active system where you could trade directly with a player and/or a passive system where you could interface with a vendor npc or a "trade" block.
