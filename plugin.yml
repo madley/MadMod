@@ -1,3 +1,23 @@
 name: madmod
 main: com.github.madley.madmod.Madmod
 version: .01
+
+commands:
+   basic:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: <plugin name>.basic
+      permission-message: You don't have <permission>
+   ackmad:
+      description: Acknowledges madley as Admin.
+      usage: /<command>
+      permission: <plugin name>.ackmad
+      permission-message: You don't have <permission>
+      
+permissions:
+    madman.*:
+        description: Gives access to all madman commands
+        children:
+            madman.kick: true
+            madman.ban: true
+            madman.basic: true
